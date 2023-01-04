@@ -1,4 +1,24 @@
+
+.logo
+{
+    width: 18px;
+    height: 18px;
+}
+
 .abel
 {
     font-family: 'Abel', sans-serif;
+}
+.anton-font
+{
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    font-family: 'Anton', sans-serif;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
