@@ -1,6 +1,12 @@
 body{
     background-color:#E6E6E6;
 }
+
+.circles-div
+{
+
+}
+
 .logo
 {
     width: 35px;
@@ -24,10 +30,12 @@ body{
     line-height: 77px;
     border-radius: 50%;
     font-size: 15px;
+    font-family: 'Anton', sans-serif;
     color: #fff;
     text-align: center;
     background:black;
     border:7px solid white;
+    margin: 1em 1em;
 }
 #design{
     background:#E5563A;
@@ -40,4 +48,33 @@ body{
 }
 #host{
     background:#00AAA9;
+}
+
+@media screen and (min-width: 576px)
+{
+    .top-circles{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    hr{
+        width:70%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px)
+{
+    .top-circles{
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-circles{
+        display: flex;
+        justify-content: center;
+    }
+    hr{
+        display: none;
+    }
 }
