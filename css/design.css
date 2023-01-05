@@ -5,18 +5,7 @@ ul{
     list-style: none;
 }
 
-.circles-div
-{
 
-}
-
-.selected-img
-{
-    width:20em;
-    height:15em;
-    box-sizing: border-box;
-    border: 4px solid lightgrey;
-}
 .logo{
     height:100px;
     width:100px;
@@ -70,7 +59,7 @@ ul{
     background:#00AAA9;
 }
 
-@media screen and (min-width: 576px)
+@media screen and (min-width: 577px)
 {
     .top-circles{
         display: flex;
@@ -84,6 +73,14 @@ ul{
     .small-center{
         display: flex;
         justify-content: center;
+    }
+    .selected-img
+    {
+        width:20em;
+        height:15em;
+        box-sizing: border-box;
+        border: 10px solid lightgrey;
+
     }
 
 
@@ -102,4 +99,38 @@ ul{
     hr{
         display: none;
     }
+    .selected-img
+    {
+        width:15em;
+        height:10em;
+        box-sizing: border-box;
+        border: 4px solid lightgrey;
+    }
 }
+
+@media screen and (min-width: 768px)
+{
+    .selected-img
+    {
+        width:15em;
+        height:10em;
+        box-sizing: border-box;
+        border: 4px solid blue;
+    }
+}
+
+
+@media screen and (min-width: 992px)
+{
+    .selected-img
+    {
+        width:21em;
+        height:15em;
+        border: 8px solid red;
+    }
+
+    .mar{
+        margin: 0 1em;
+    }
+}
+
