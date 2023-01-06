@@ -11,6 +11,7 @@ ul {
 }
 
 
+
 .logo {
     height: 50px;
     width: 50px;
@@ -38,6 +39,28 @@ ul {
     border: 7px solid white;
     margin: 1em 1em;
 }
+
+.design:hover {
+    box-shadow: 0 0 11px #E5563A;
+}
+
+.develop:hover {
+    box-shadow: 0 0 11px #EB9C39;
+}
+
+.support:hover {
+    box-shadow: 0 0 11px #7BB06C;
+}
+.host:hover {
+    box-shadow: 0 0 11px #00AAA9;
+}
+
+.selected-img:hover {
+    border:none;
+    transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 
 .small-circle {
     width: 30px;
