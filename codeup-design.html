@@ -26,16 +26,18 @@
 <!--NAV BAR START-->
 <nav class="navbar bg-body-tertiary navbar-expand-lg">
     <div class="container-fluid d-flex">
-        <a class="navbar-brand abel" href="#">
-            <img class="nav-link text-dark d-inline-block p-0 logo" src="img/logo.png">
-            codeup design
+        <a class="navbar-brand abel flex-row d-flex align-items-center" href="#">
+            <img class="nav-link text-dark d-inline-block p-0 logo me-2" src="img/logo.png">
+            <div class="fs-4">
+                codeup design
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse abel" id="navbarNavDropdown">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav mt-1">
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" aria-current="page" href="#">services</a>
                 </li>
@@ -64,13 +66,13 @@
                 <div class="row d-flex my-3">
                     <!----------FIRST TWO CIRCLES---------->
                     <div class="d-flex col-sm-6 top-circles p-0">
-                        <div class="dot" id="design">Design</div>
-                        <div class="dot " id="develop">Develop</div>
+                        <div class="dot design">Design</div>
+                        <div class="dot develop">Develop</div>
                     </div>
                     <!-----------LAST TWO CIRCLES----------->
                     <div class="d-flex col-sm-6 bottom-circles ">
-                        <div class="dot" id="support">Support</div>
-                        <div class="dot" id="host">Host</div>
+                        <div class="dot support">Support</div>
+                        <div class="dot host">Host</div>
                     </div>
                 </div>
             </div>
@@ -81,83 +83,120 @@
 <div class="container">
     <div class="row d-flex justify-items-evenly">
         <!---LEFT SIDE--->
-        <div class="col-md-9 d-flex flex-column align-items-center justify-content-center p-0">
-            <p>SELECTED WORK</p>
+        <div class="col-lg-7 col-md-12 d-flex flex-column align-items-center justify-content-start pe-2">
+            <p class="sub-titles abel">SELECTED WORK</p>
 
-            <div class="row d-flex justify-content-sm-center justify-content-md-start text-nowrap">
+            <div class="row d-flex justify-content-center justify-content-md-start text-nowrap mt-lg-5 mt-xl-0">
                 <!--IMAGES-COL-1-->
-                <div class="col-7 d-flex flex-sm-row ">
+                <div class="col-7 d-flex flex-row ">
                     <div class="flex-md-row flex-column d-flex ps-0">
 
-                        <div class="d-flex flex-wrap justify-content-start mar">
+                        <div class="d-flex flex-wrap mar">
                             <img class="selected-img" src="img/apple-ipad.jpg">
-                            <div class="display-inline-block d-flex align-items-center">
-                                <p class="me-2 my-0">featured project</p>
+                            <div class="display-inline-block d-flex align-items-center flex-grow-1">
+                                <p class="me-2 my-0 abel">FEATURED PROJECT</p>
                                 <div class="d-flex flex-grow-1 justify-content-end">
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
+                                    <div class="small-circle display-inline-block anton-font design">D</div>
+                                    <div class="small-circle display-inline-block anton-font develop">D</div>
+                                    <div class="small-circle display-inline-block anton-font support">S</div>
+                                    <div class="small-circle display-inline-block anton-font host">H</div>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="d-flex flex-wrap ">
+                        <div class="d-flex flex-wrap mar">
                             <img class="selected-img" src="img/macbook.jpg">
-                            <div class="display-inline-block d-flex align-items-center">
-                                <p class="me-2 my-0">featured project</p>
+                            <div class="display-inline-block d-flex align-items-center flex-grow-1">
+                                <p class="me-2 my-0 abel">FEATURED PROJECT</p>
                                 <div class="d-flex flex-grow-1 justify-content-end">
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
-                                    <div class="small-circle display-inline-block"></div>
+                                    <div class="small-circle display-inline-block anton-font design">D</div>
+                                    <div class="small-circle display-inline-block anton-font develop">D</div>
+                                    <div class="small-circle display-inline-block anton-font support">S</div>
+                                    <div class="small-circle display-inline-block anton-font host">H</div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
                 <!--IMAGES-COL-2-->
-                <div class="col-7 d-flex flex-sm-row  mar">
-                    <div class=" flex-wrap">
-                        <img class="selected-img" src="img/man.jpg">
-                        <div class="display-inline-block d-flex align-items-center">
-                            <p class="me-2 my-0">featured project</p>
-                            <div class="d-flex flex-grow-1 justify-content-end">
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
+                <div class="col-7 d-flex flex-row">
+                    <div class="flex-md-row flex-column d-flex ps-0">
+                        <div class="d-flex flex-wrap mar">
+                            <img class="selected-img" src="img/man.jpg">
+                            <div class="display-inline-block d-flex align-items-center flex-grow-1">
+                                <p class="me-2 my-0 abel flex-grow-1">FEATURED PROJECT</p>
+                                <div class="d-flex flex-grow-1 justify-content-end">
+                                    <div class="small-circle display-inline-block anton-font design">D</div>
+                                    <div class="small-circle display-inline-block anton-font develop">D</div>
+                                    <div class="small-circle display-inline-block anton-font support">S</div>
+                                    <div class="small-circle display-inline-block anton-font host">H</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-                    <div class="d-flex flex-wrap mar">
-                        <img class="selected-img" alt="opsec" src="img/security.jpg">
-                        <div class="display-inline-block d-flex align-items-center">
-                            <p class="me-2 my-0">featured project</p>
-                            <div class="d-flex flex-grow-1 justify-content-end">
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
-                                <div class="small-circle display-inline-block"></div>
+                        <div class="d-flex flex-wrap mar">
+                            <img class="selected-img" alt="opsec" src="img/security.jpg">
+                            <div class="display-inline-block d-flex align-items-center flex-grow-1">
+                                <p class="me-2 my-0 abel">FEATURED PROJECT</p>
+                                <div class="d-flex flex-grow-1 justify-content-end">
+                                    <div class="small-circle display-inline-block anton-font design">D</div>
+                                    <div class="small-circle display-inline-block anton-font develop">D</div>
+                                    <div class="small-circle display-inline-block anton-font support">S</div>
+                                    <div class="small-circle display-inline-block anton-font host">H</div>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
-
                 </div>
             </div>
 
         </div>
         <!---RIGHT SIDE--->
-        <div class="col-md-3 col-sm-4 d-flex flex-column">
-            <div class="text-center">THE LAST</div>
+        <div class="col-lg-4 offset-lg-1 col-md-12 d-flex flex-column ps-5">
+            <div class="text-center abel sub-titles">THE LAST</div>
             <div class="row">
-                <div class="col">
+                <div class="col anton-font">
+                    <div class="row">
+                        <div class="col d-flex margin-bottom">
+                            <img class="small-image me-3" src="img/mobile-phone.jpg">
+                            <p class="right-text-size">
+                                THE ADMIN BAR AND ABSOLUTE POSITIONING
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex margin-bottom">
+                            <img class="small-image me-3" src="img/head.jpg">
+                            <p class="right-text-size">
+                                NIBBLER AWESOME WEBSITE TESTING
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex margin-bottom">
+                            <img class="small-image me-3" src="img/ipad.jpg">
+                            <p class="right-text-size">
+                                HOW TO GET GOOGLE TO LIKE YOU
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column abel">
+                            <p class="m-0">
+                                LAST TWEET
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque autem beatae
+                                culpa dicta dolor explicabo hic in laudantium magnam, nam non numquam qui quia quis
+                                sequi similique vero voluptate!
+                            </p>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
