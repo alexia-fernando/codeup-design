@@ -6,17 +6,11 @@ body {
     background-color: #E6E6E6;
 }
 
-ul {
-    list-style: none;
-}
-
-
-
 .logo {
     height: 50px;
     width: 50px;
 }
-
+/*FONTS*/
 .abel {
     font-family: 'Abel', sans-serif;
 }
@@ -25,7 +19,9 @@ ul {
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     font-family: 'Anton', sans-serif;
 }
+/***************END FONTS******************/
 
+/***** BIG CIRLCES ****/
 .dot {
     width: 95px;
     height: 95px;
@@ -40,6 +36,8 @@ ul {
     margin: 1em 1em;
 }
 
+
+/*** EXTRA INTERACTIVITY ****/
 .design:hover {
     box-shadow: 0 0 11px #E5563A;
 }
@@ -60,9 +58,9 @@ ul {
     transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+/**** BOTTOM HALF START****/
 
-
-.small-circle {
+.small-circle { /*** CIRCLES UNDER IMGS ***/
     width: 30px;
     height: 30px;
     line-height: 31px;
@@ -74,24 +72,31 @@ ul {
     background: black;
     margin: 0 .5em;
 }
-.small-image{
+
+
+.small-image{ /***** "THE LAST" IMAGES ***/
     width:5em;
     height:5em;
     border:2px solid lightgray;
 }
+
 .margin-bottom{
     margin-bottom:3.3em;
 }
 .mar {
     margin:.75em;
 }
-.right-text-size{
+
+.right-text-size{ /**** "THE LAST" CONTENT FONT SIZE ***/
     font-size:1.7em;
 }
 .sub-titles{
     font-size:.9em;
     margin:3.5em 0;
 }
+
+
+/**** CIRCLE COLORS ***/
 .design {
     background: #E5563A;
 }
@@ -107,6 +112,8 @@ ul {
 .host {
     background: #00AAA9;
 }
+
+/****************** MEDIA QUERIES *************************/
 
 /*SMALL & OVER */
 @media screen and (min-width: 577px) {
